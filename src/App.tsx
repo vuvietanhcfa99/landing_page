@@ -10,7 +10,7 @@ import { ArrowUp } from 'lucide-react';
 
 export default function App() {
   const [showScrollTop, setShowScrollTop] = useState(false);
-  const [title, setTitle] = useState('');
+  // const [title, setTitle] = useState('');
   // Scroll to top button
   useEffect(() => {
     const handleScroll = () => {
@@ -21,10 +21,10 @@ export default function App() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    setTitle(params.get('title') || '');
-  }, [])
+  // useEffect(() => {
+  //   const params = new URLSearchParams(window.location.search);
+  //   setTitle(params.get('title') || '');
+  // }, [])
 
 
   const scrollToTop = () => {
@@ -35,14 +35,14 @@ export default function App() {
 
   return (
     <article>
-      <meta property="og:title" content={title} />
-      <meta property="og:description" content={title} />
+      <meta property="og:title" content={"Tin nóng hôm nay"} />
+      <meta property="og:description" content={"CFA99"} />
       <meta property="og:image" content="https://cfa99-landing-page.vercel.app/logo_app.png" />
-      <meta property="og:url" content="https://cfa99-landing-page.vercel.app/" />
+      <meta property="og:url" content="https://cfa99-landing-page.vercel.app" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="CFA99" />
       <meta name="apple-itunes-app" content="app-id=Ứng Dụng Của Bạn, app-argument=null" />
-      <link rel="alternate" href="https://cfa99-landing-page.vercel.app/" />
+      <link rel="alternate" href="https://cfa99-landing-page.vercel.app" />
       <div className="min-h-screen bg-background transition-colors duration-300">
         {/* Header */}
         <LandingHeader />
