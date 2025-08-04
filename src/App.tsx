@@ -37,7 +37,7 @@ export default function App() {
     <article>
       <meta property="og:title" content={title} />
       <meta property="og:description" content={title} />
-      <meta property="og:image" content="https://cfa99-landing-page.vercel.app/logo.svg" />
+      <meta property="og:image" content="https://cfa99-landing-page.vercel.app/logo_app.png" />
       <meta property="og:url" content="https://cfa99-landing-page.vercel.app/" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="CFA99" />
