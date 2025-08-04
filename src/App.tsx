@@ -37,12 +37,12 @@ export default function App() {
     <article>
       <meta property="og:title" content={title} />
       <meta property="og:description" content={title} />
-      <meta property="og:image" content="https://website-cfa99.vercel.app/image/logo_app.png" />
-      <meta property="og:url" content="https://website-cfa99.vercel.app/#/welcome" />
+      <meta property="og:image" content="https://cfa99-landing-page.vercel.app/logo.svg" />
+      <meta property="og:url" content="https://cfa99-landing-page.vercel.app/" />
       <meta property="og:type" content="website" />
       <meta property="og:site_name" content="CFA99" />
       <meta name="apple-itunes-app" content="app-id=Ứng Dụng Của Bạn, app-argument=null" />
-      <link rel="alternate" href="https://website-cfa99.vercel.app/#/welcome" />
+      <link rel="alternate" href="https://cfa99-landing-page.vercel.app/" />
       <div className="min-h-screen bg-background transition-colors duration-300">
         {/* Header */}
         <LandingHeader />
