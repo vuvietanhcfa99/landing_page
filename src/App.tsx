@@ -34,14 +34,6 @@ export default function App() {
   
 
   return (
-    <article>
-      <meta property="og:title" content={"Tin nóng hôm nay"} />
-      <meta property="og:description" content={"CFA99"} />
-      <meta property="og:image" content="https://cfa99-landing-page.vercel.app/images/logo_app.png" />
-      <meta property="og:url" content="https://cfa99-landing-page.vercel.app" />
-      <meta property="og:type" content="website" />
-      <meta property="og:site_name" content="CFA99" />
-      <link rel="alternate" href="https://cfa99-landing-page.vercel.app" />
       <div className="min-h-screen bg-background transition-colors duration-300">
         {/* Header */}
         <LandingHeader />
@@ -69,6 +61,5 @@ export default function App() {
           </Button>
         )}
       </div>
-    </article>
   );
 }
